@@ -18,5 +18,7 @@ public class user_imput {
         System.out.println("sua idade é: " + idade);
         System.out.println("sua comida preferida é " + comida);
 
+        scanner.close();
+
     }
 }
