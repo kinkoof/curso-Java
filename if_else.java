@@ -17,5 +17,7 @@ public class if_else {
             System.out.println("Sai daqui kid");
         }
 
+        scanner.close();
+
     }
 }
