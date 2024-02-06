@@ -1,3 +1,4 @@
+package exercicios;
 import javax.swing.JOptionPane;
 
 public class achar_hipotenusa {
