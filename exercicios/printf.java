@@ -13,8 +13,8 @@ public class printf {
 
         String mystring = "lucas";
         double mydouble = 1000;
-        char mychar = '@';
-        boolean myboolean = true;
+        // char mychar = '@';
+        // boolean myboolean = true;
 
         // [conversion-character]
         // System.out.printf("exemplo: %d \n", 123); // %d = numeros decimais
