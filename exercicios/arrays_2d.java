@@ -1,4 +1,4 @@
-package exercicios;
+
 
 public class arrays_2d {
     public static void main(String[] args) {

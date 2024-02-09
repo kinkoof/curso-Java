@@ -1,4 +1,4 @@
-package exercicios.scope_variables;
+package scope_variables;
 
 import java.util.Random;
 

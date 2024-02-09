@@ -1,4 +1,4 @@
-package exercicios.overload_constructors;
+package overload_constructors;
 
 public class Pizza {
     String massa;

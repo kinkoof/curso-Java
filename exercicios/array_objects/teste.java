@@ -1,4 +1,4 @@
-package exercicios.array_objects;
+package array_objects;
 
 public class teste {
     public static void main(String[] args) {

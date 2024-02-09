@@ -1,4 +1,4 @@
-package exercicios.toString_method;
+package toString_method;
 
 public class Carro {
     String marca = "ford";

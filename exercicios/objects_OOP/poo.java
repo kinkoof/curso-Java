@@ -1,4 +1,4 @@
-package exercicios.objects_OOP;
+package objects_OOP;
 
 public class poo {
     public static void main(String[] args) {

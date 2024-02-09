@@ -1,4 +1,4 @@
-package exercicios.array_objects;
+package array_objects;
 
 public class Comida {
 
@@ -8,5 +8,5 @@ public class Comida {
         this.nome = nome;
     }
 
-    
+
 }

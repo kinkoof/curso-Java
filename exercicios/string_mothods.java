@@ -1,4 +1,3 @@
-package exercicios;
 
 public class string_mothods {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exercicios.objects_OOP;
+package objects_OOP;
 
 public class Carro {
 

@@ -1,4 +1,4 @@
-package exercicios.overload_constructors;
+package overload_constructors;
 
 public class teste {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class teste {
         System.out.println("aqui estao os ingredientes da sua pizza: ");
         System.out.println(pizza.massa);
         System.out.println(pizza.molho);
-     
+
         if (pizza.queijo == null) {
             System.out.println("sem queijo");
         }else{

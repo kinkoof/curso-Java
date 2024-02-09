@@ -1,4 +1,4 @@
-package exercicios;
+
 public class swapVariables {
 
     public static void main(String[] args) {

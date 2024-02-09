@@ -1,4 +1,4 @@
-package exercicios;
+
 public class classes_matematicas {
     public static void main(String[] args) {
 

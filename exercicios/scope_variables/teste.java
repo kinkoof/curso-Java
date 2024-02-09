@@ -1,4 +1,4 @@
-package exercicios.scope_variables;
+package scope_variables;
 
 public class teste {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class teste {
 
         Jogo_dados dados = new Jogo_dados();
 
-        
+
 
 
     }

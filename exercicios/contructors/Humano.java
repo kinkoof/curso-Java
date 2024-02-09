@@ -1,4 +1,4 @@
-package exercicios.contructors;
+package contructors;
 
 public class Humano {
 

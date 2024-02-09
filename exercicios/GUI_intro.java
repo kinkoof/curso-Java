@@ -1,4 +1,4 @@
-package exercicios;
+
 import javax.swing.JOptionPane;
 
 public class GUI_intro {

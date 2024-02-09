@@ -1,4 +1,4 @@
-package exercicios;
+
 public class switchs {
     public static void main(String[] args) {
 
