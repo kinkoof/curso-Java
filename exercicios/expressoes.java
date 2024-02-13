@@ -1,4 +1,3 @@
-
 public class expressoes {
     public static void main(String[] args) {
         // expressoes = operadores & operacoes

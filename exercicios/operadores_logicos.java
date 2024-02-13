@@ -1,4 +1,3 @@
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -57,7 +56,7 @@ public class operadores_logicos {
 
                         game=false;
                     }
-
+                
                 }
 
             }
