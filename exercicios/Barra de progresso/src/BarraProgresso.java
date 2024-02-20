@@ -1,10 +1,11 @@
+import java.awt.Color;
 import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
 public class BarraProgresso {
 
     JFrame frame = new JFrame();
-    JProgressBar bar = new JProgressBar();
+    JProgressBar bar = new JProgressBar(0, 100);
 
 
     BarraProgresso(){
@@ -13,7 +14,8 @@ public class BarraProgresso {
         bar.setBounds(10,10,380,50);
         bar.setStringPainted(true);
         bar.setFont(new Font("MV Boli", Font.BOLD, 25));
-
+        bar.setForeground(Color.green);
+        bar.setBackground(Color.black);
 
         frame.add(bar);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -31,7 +33,7 @@ public class BarraProgresso {
             bar.setValue(x);
 
             try {
-                Thread.sleep(100);
+                Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
