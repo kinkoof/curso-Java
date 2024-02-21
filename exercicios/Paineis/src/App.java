@@ -10,12 +10,12 @@ public class App {
     public static void main(String[] args) throws Exception {
         // Jpanel  = um GUI componente que funciona como um container para outros componentes
 
-        //ImageIcon icon = new ImageIcon("definicoes.png");
+        ImageIcon icon = new ImageIcon("definicoes.png");
 
 
         JLabel labelGreen = new JLabel();
         labelGreen.setText("Hello word! mas verde");
-        // label.setIcon(icon);
+        labelGreen.setIcon(icon);
         labelGreen.setVerticalAlignment(JLabel.BOTTOM);
         labelGreen.setHorizontalAlignment(JLabel.RIGHT);
         labelGreen.setBounds(100,100, 100, 75);

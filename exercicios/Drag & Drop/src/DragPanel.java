@@ -6,6 +6,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 
+
 public class DragPanel extends JPanel {
 
 
@@ -20,6 +21,7 @@ public class DragPanel extends JPanel {
         ClickListener clickListener = new ClickListener();
         DragListener dragListener = new DragListener();
 
+        this.setActionMap(getActionMap());
         this.addMouseListener(clickListener);
         this.addMouseMotionListener(dragListener);
     }

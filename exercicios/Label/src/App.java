@@ -1,3 +1,4 @@
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 
@@ -28,16 +29,14 @@ public class App {
         label.setHorizontalAlignment(JLabel.CENTER);
         // label.setBounds(100, 100, 250, 250);
 
-
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         // frame.setSize(500,500);
         // frame.setLayout(null);
 
-
-
         frame.add(label);
-        frame.pack(); //adjusta a tela aos intens dentro
+        frame.pack(); // adjusta a tela aos intens dentro
         frame.setVisible(true);
     }
 }
