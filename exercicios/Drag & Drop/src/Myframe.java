@@ -9,8 +9,7 @@ public class Myframe extends JFrame{
         this.add(dragPanel);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(500, 500);
-        this.setLayout(null);
+        this.setSize(700, 700);
         this.setVisible(true);
     }
 }

@@ -21,6 +21,7 @@ public class DragPanel extends JPanel {
         ClickListener clickListener = new ClickListener();
         DragListener dragListener = new DragListener();
 
+        this.setOpaque(true);
         this.setActionMap(getActionMap());
         this.addMouseListener(clickListener);
         this.addMouseMotionListener(dragListener);
