@@ -9,7 +9,7 @@ public class teste {
         // variaveis globais = declaradas fora de um method, mas dentro de uma classe
         // visiveis para toda a classe
 
-        Jogo_dados dados = new Jogo_dados();
+        new Jogo_dados();
 
 
 
